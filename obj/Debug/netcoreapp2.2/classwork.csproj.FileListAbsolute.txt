@@ -1,0 +1,11 @@
+C:\MyRepository\classwork\bin\Debug\netcoreapp2.2\classwork.deps.json
+C:\MyRepository\classwork\bin\Debug\netcoreapp2.2\classwork.runtimeconfig.json
+C:\MyRepository\classwork\bin\Debug\netcoreapp2.2\classwork.runtimeconfig.dev.json
+C:\MyRepository\classwork\bin\Debug\netcoreapp2.2\classwork.dll
+C:\MyRepository\classwork\bin\Debug\netcoreapp2.2\classwork.pdb
+C:\MyRepository\classwork\obj\Debug\netcoreapp2.2\classwork.csprojAssemblyReference.cache
+C:\MyRepository\classwork\obj\Debug\netcoreapp2.2\classwork.csproj.CoreCompileInputs.cache
+C:\MyRepository\classwork\obj\Debug\netcoreapp2.2\classwork.AssemblyInfoInputs.cache
+C:\MyRepository\classwork\obj\Debug\netcoreapp2.2\classwork.AssemblyInfo.cs
+C:\MyRepository\classwork\obj\Debug\netcoreapp2.2\classwork.dll
+C:\MyRepository\classwork\obj\Debug\netcoreapp2.2\classwork.pdb
