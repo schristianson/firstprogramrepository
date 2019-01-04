@@ -14,7 +14,25 @@ namespace classwork
             //Console.WriteLine("Hello World!");
 
             //BookLibraryResults();
-            MyNumericExamples();
+            //MyNumericExamples();
+            //OtherNumericExamples();
+            MyStringExamples();
+        }
+
+        static void MyStringExamples()
+        {
+            StringTypes myTypes = new StringTypes();
+            myTypes.SampleString();
+            myTypes.AddString();
+            string words = myTypes.StringBuilderExample("Hello", "C Sharp", "Class");
+
+            Console.WriteLine(words);
+            myTypes.CharTypeExample();
+            myTypes.EscapeExample();
+            myTypes.PlaceHolderExample();
+            myTypes.ArraySample();
+            myTypes.MyHouseArray();
+            myTypes.MultiArraySample();
         }
 
         static void MyNumericExamples()
