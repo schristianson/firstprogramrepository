@@ -16,8 +16,36 @@ namespace classwork
             //BookLibraryResults();
             //MyNumericExamples();
             //OtherNumericExamples();
-            MyStringExamples();
+            //MyStringExamples();
+            StatementSamples();
         }
+
+        static void StatementSamples()
+        {
+            StatementExamples se = new StatementExamples();
+            //se.SampleIf();
+            //se.SampleIfElse();
+            //se.SampleIfChain();
+            //se.SampleIfAnd();
+            //se.SampleIfOr();
+            //se.SampleConditional();
+            //se.SampleSwitch(10);
+            //se.SampleWhile();
+            //se.SampleFor();          // displays values FOR 1 thru 9, individually
+            //se.SampleForEach();      // displays EACH of the letters individually in the word "something"
+            //string myString = se.JumpStatementExample("Tuesday");
+            //Console.WriteLine(myString);
+            BottlesSong();
+        }
+
+
+        static void BottlesSong()
+        {
+            BottlesOfBeer beer = new BottlesOfBeer();
+            string song = beer.BottlesOfBeerSong();
+            Console.WriteLine(song);
+        }
+
 
         static void MyStringExamples()
         {
@@ -72,7 +100,7 @@ namespace classwork
             //
             // This gets the value of Biography from the object
             Console.WriteLine(myBook.Genre); // biography
-            // This is a second object instance of Book.
+                                             // This is a second object instance of Book.
             BookLibrary mySecondBook = new BookLibrary();
             mySecondBook.Genre = "fiction exists";
             Console.WriteLine(mySecondBook.Genre); // fiction
