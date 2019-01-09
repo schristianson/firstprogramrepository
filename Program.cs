@@ -17,8 +17,40 @@ namespace classwork
             //MyNumericExamples();
             //OtherNumericExamples();
             //MyStringExamples();
-            StatementSamples();
+            //StatementSamples();
+            //HouseSample();
+            StructSample();
         }
+        
+        static void StructSample()
+        {
+            BookSample bookSample = new BookSample(4.99m, "Zombie Fallout", "Mark Tufo");
+
+            Console.WriteLine("The book " + bookSample.title + " by " + bookSample.author + " is $" + bookSample.price);
+        }
+
+
+        static void HouseSample()
+        {
+            House myHouse = new House("concrete", "triple pane");
+
+            Console.WriteLine(myHouse.PaintDoor);
+            Console.WriteLine(myHouse.Foundation);
+
+            myHouse.OpenDoor(true);
+
+            BookSample bookSample = new BookSample(4.99m, "Zombie Fallout", "Mark Tufo");
+        }
+
+        //static void BookLibrary()
+        //{
+        //    BookLibrary myBook = new Book("fiction", "McMichael");
+        //
+        //          Console.WriteLine(myBook.Genre);
+        //        Console.WriteLine(myBook.Publisher);
+        //
+        //          myBook.OpenBook(true);
+        //    }
 
         static void StatementSamples()
         {

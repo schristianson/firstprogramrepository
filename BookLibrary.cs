@@ -42,6 +42,13 @@ namespace classwork
         {
             Console.WriteLine("The book opens");
         }
+
+        // METHOD OVERLOAD
+        public void OpenBook(string bookmark)
+        {
+            Console.WriteLine("I put my" + bookmark + "in the openbook");
+        }
+
         public void CloseBook()
         {
 
@@ -49,6 +56,18 @@ namespace classwork
         public void TurnPage()
         {
 
+        }
+
+        // DEFAULT CONSTRUCTOR
+        public BookLibrary() { }
+
+        // CONSTRUCTOR OVERLOAD
+        public BookLibrary(string diminsions, string typeofcover, string genre, string publisher)
+        {
+            this._diminsions = diminsions;
+            this._typeofcover = typeofcover;
+            this._genre = genre;
+            this._publisher = publisher;
         }
 
     }
