@@ -1,5 +1,6 @@
 ﻿using System;
 using Lessons;
+using Quiz;
 /* This namespace represents the file folder that the class is in. */
 namespace classwork
 {
@@ -19,9 +20,35 @@ namespace classwork
             //MyStringExamples();
             //StatementSamples();
             //HouseSample();
-            StructSample();
+            //StructSample();
+            //QuizWork1();
+            FruitSample();
+
         }
-        
+
+        static void FruitSample()
+        {
+            Apple myApple = new Apple();
+            myApple.EatFruit();
+
+            Fruit myFruit = new Apple();
+            myFruit.EatFruit();
+
+            Orange myOrange = new Orange();
+            myOrange.EatFruit();
+
+            RanchStyle ranch = new RanchStyle("Stone", "Triple Pane", "Composite", "Blue"); ranch.OpenDoor();
+            Console.WriteLine(ranch.Roof);
+        }
+
+        static void QuizWork1()
+        {
+            QuizClass1 myQuiz = new QuizClass1();
+            string result = myQuiz.GetGradeMessage('A');
+            Console.WriteLine(result);
+            myQuiz.DivisibleByThree5();
+        }
+
         static void StructSample()
         {
             BookSample bookSample = new BookSample(4.99m, "Zombie Fallout", "Mark Tufo");
