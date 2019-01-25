@@ -6,7 +6,7 @@ namespace Lessons
         public virtual void EatFruit()
         {
             Console.WriteLine("I eat fruit");
-            // ThrowFruit();
+            // ThrowFruit(); 
         }
 
         // Private is only accessible from within the class.

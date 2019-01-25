@@ -6,7 +6,7 @@ namespace classwork
         // The following are fields
         string _foundation;
         //string _roof;
-        string _window;
+        string _window = "double pane";
         //string _door;
 
         // Standard long way of a Property
@@ -35,7 +35,7 @@ namespace classwork
         }
 
         // Short handhand property + field; Auto Property
-        public string Roof { get; set; }
+        public string Roof { get; set; } = "Composite";
 
         public string PaintDoor { get; set; }
 
