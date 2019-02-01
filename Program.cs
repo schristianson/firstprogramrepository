@@ -1,6 +1,7 @@
 ﻿using System;
 using Lessons;
 using Quiz;
+
 /* This namespace represents the file folder that the class is in. */
 namespace classwork
 {
@@ -34,9 +35,27 @@ namespace classwork
             //PartialSample();
             //AnotherHouseExample();
             //GenricSample();
-            CollectionSample();
+            //CollectionSample();
+            //MyLabResults();                                    // QuizLab2, class #1
+            MyQuizLab();                                     // QuizLab2, class #4
         }
 
+
+
+        static void MyLabResults()
+        {
+            LabResults myTypes = new LabResults();
+
+            myTypes.OhmsLaw();
+        }
+
+        static void MyQuizLab()
+        {
+            
+            QuizLab myTypes = new QuizLab();
+
+            //myTypes.LeapYear();
+        }
 
         //static void BookLibrary()
         //{
