@@ -54,6 +54,8 @@ namespace classwork
             
             QuizLab myTypes = new QuizLab();
 
+            myTypes.ConversionFeet(2,QuizLab.FeetConvert.Millimeters);
+
             //myTypes.LeapYear();
         }
 
