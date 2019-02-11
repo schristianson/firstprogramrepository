@@ -1,0 +1,11 @@
+C:\MyRepository\firstprogramrepository\obj\Debug\netcoreapp2.1\classwork.csprojAssemblyReference.cache
+C:\MyRepository\firstprogramrepository\obj\Debug\netcoreapp2.1\classwork.csproj.CoreCompileInputs.cache
+C:\MyRepository\firstprogramrepository\obj\Debug\netcoreapp2.1\classwork.AssemblyInfoInputs.cache
+C:\MyRepository\firstprogramrepository\obj\Debug\netcoreapp2.1\classwork.AssemblyInfo.cs
+C:\MyRepository\firstprogramrepository\bin\Debug\netcoreapp2.1\classwork.deps.json
+C:\MyRepository\firstprogramrepository\bin\Debug\netcoreapp2.1\classwork.runtimeconfig.json
+C:\MyRepository\firstprogramrepository\bin\Debug\netcoreapp2.1\classwork.runtimeconfig.dev.json
+C:\MyRepository\firstprogramrepository\bin\Debug\netcoreapp2.1\classwork.dll
+C:\MyRepository\firstprogramrepository\bin\Debug\netcoreapp2.1\classwork.pdb
+C:\MyRepository\firstprogramrepository\obj\Debug\netcoreapp2.1\classwork.dll
+C:\MyRepository\firstprogramrepository\obj\Debug\netcoreapp2.1\classwork.pdb

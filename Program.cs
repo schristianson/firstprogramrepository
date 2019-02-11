@@ -36,12 +36,12 @@ namespace classwork
             //AnotherHouseExample();
             //GenricSample();
             //CollectionSample();
-            //MyLabResults();                                    // QuizLab2, class #1
-            MyQuizLab();                                     // QuizLab2, class #4
+            //MyLabResults();                                // QuizLab2 assignment, #1
+            MyQuizLab();                                     // QuizLab2 assignment, #4
         }
 
 
-
+        // #1. LabResults - Ohm's Law
         static void MyLabResults()
         {
             LabResults myTypes = new LabResults();
@@ -49,12 +49,13 @@ namespace classwork
             myTypes.OhmsLaw();
         }
 
+        // #3. QuizLab2 - Enum
         static void MyQuizLab()
         {
             
-            QuizLab myTypes = new QuizLab();
+            QuizLab2 myTypes = new QuizLab2();
 
-            myTypes.ConversionFeet(2,QuizLab.FeetConvert.Millimeters);
+            myTypes.ConversionFeet(2,QuizLab2.FeetConvert.Millimeters);
 
             //myTypes.LeapYear();
         }
