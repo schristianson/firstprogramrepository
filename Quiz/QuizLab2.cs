@@ -4,7 +4,14 @@ namespace Quiz
 {
     public class QuizLab2
     {
+        // #2. Write a series of classes that are based around a Television
+        //
 
+
+
+
+        // #3. Convert the length of feet to other lengths
+        //
         //Enums are treated as a int data type, with default values
         public enum FeetConvert { Centimeters, Inches, Meters, Millimeters, Yards, All };  //All converts all of them; remove All if 1 at a time
 

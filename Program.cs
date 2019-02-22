@@ -36,8 +36,9 @@ namespace classwork
             //AnotherHouseExample();
             //GenricSample();
             //CollectionSample();
-            //MyLabResults();                                // QuizLab2 assignment, #1
-            MyQuizLab();                                     // QuizLab2 assignment, #4
+            //MyLabResults();                     // QuizLab2 assignment, #1
+            MyQuizLab();                          // QuizLab2 assignment, #4
+            MyTVResults();                        // QuizLab2 assignment, #3
         }
 
 
@@ -49,13 +50,20 @@ namespace classwork
             myTypes.OhmsLaw();
         }
 
+        static void MyTVResults()
+        {
+            HDTV myTV = new HDTV(42, false);
+            Console.WriteLine(myTV.Size);
+            myTV.Remote();
+
+        }
         // #3. QuizLab2 - Enum
         static void MyQuizLab()
         {
-            
+
             QuizLab2 myTypes = new QuizLab2();
 
-            myTypes.ConversionFeet(2,QuizLab2.FeetConvert.Millimeters);
+            myTypes.ConversionFeet(2, QuizLab2.FeetConvert.Millimeters);
 
             //myTypes.LeapYear();
         }
