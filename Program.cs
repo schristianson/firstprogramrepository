@@ -1,14 +1,17 @@
 ﻿using System;
 using Lessons;
 using Quiz;
-
-/* This namespace represents the file folder that the class is in. */
+using Advanced;
+/* This namespace represents the file folder 
+ * that the class is in. */
 namespace classwork
 {
     // Class is a blueprint of an object.
     class Program
     {
-        /* Statis is only one, Void is a return type; 
+        public delegate void TryOn(string type);
+
+        /* Static is only one, Void is a return type; 
         Main is the method name, string[] is an array and a parameter */
         static void Main(string[] args)
         {
@@ -36,11 +39,38 @@ namespace classwork
             //AnotherHouseExample();
             //GenricSample();
             //CollectionSample();
-            //MyLabResults();                     // QuizLab2 assignment, #1
-            MyQuizLab();                          // QuizLab2 assignment, #4
-            MyTVResults();                        // QuizLab2 assignment, #3
+            //MyLabResults();          // QuizLab2 assignment, #1
+            //MyQuizLab();             // QuizLab2 assignment, #4
+            //MyTVResults();           // QuizLab2 assignment, #3
+            //DelegateSample();        //the Call for this method in the main method
+            MultiDelegateSample();
         }
 
+        private static void MultiDelegateSample()
+        {
+            Hats moreHats = new Hats(7);
+            TryOn someHats, niceHat, sadHat;
+
+            niceHat = moreHats.FindLuckyHat;
+            niceHat("Top");
+
+            sadHat = moreHats.FindUglyHat;
+            sadHat("Dunce");
+
+            someHats = niceHat + sadHat;
+            someHats("Cowboy");
+
+        }
+
+        private static void DelegateSample()
+        {
+            Hats myHat = new Hats("Cowboy", 7);
+            TryOn theHat = myHat.TryOnHat;
+            theHat("I tried on a " + myHat.HatType +
+                " hat that was size " + myHat.HatSize);
+
+            Hats mySecondHat = new Hats();
+        }
 
         // #1. LabResults - Ohm's Law
         static void MyLabResults()
