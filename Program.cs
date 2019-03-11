@@ -44,6 +44,14 @@ namespace classwork
             //MyTVResults();           // QuizLab2 assignment, #3
             //DelegateSample();        //the Call for this method in the main method
             MultiDelegateSample();
+            EventSample();
+        }
+
+        private static void EventSample()
+        {
+            Coats myCoat = new Coats();
+            string result = myCoat.MyResult;
+            Console.WriteLine(result);
         }
 
         private static void MultiDelegateSample()
