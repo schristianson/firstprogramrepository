@@ -43,8 +43,15 @@ namespace classwork
             //MyQuizLab();             // QuizLab2 assignment, #4
             //MyTVResults();           // QuizLab2 assignment, #3
             //DelegateSample();        //the Call for this method in the main method
-            MultiDelegateSample();
-            EventSample();
+            //MultiDelegateSample();
+            //EventSample();
+            LambdaSample();
+        }
+
+        private static void LambdaSample()
+        {
+            LambdaExample myLambda = new LambdaExample();
+            Console.WriteLine(myLambda.MyLambdaOne(5));
         }
 
         private static void EventSample()
