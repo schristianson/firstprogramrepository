@@ -45,7 +45,15 @@ namespace classwork
             //DelegateSample();        //the Call for this method in the main method
             //MultiDelegateSample();
             //EventSample();
-            LambdaSample();
+            //LambdaSample();
+            MyExceptionSample();
+        }
+
+        private static void MyExceptionSample()
+        {
+            ExceptionExamples myEx = new ExceptionExamples();
+            //myEx.MyException();
+            myEx.MyArrayException();
         }
 
         private static void LambdaSample()
